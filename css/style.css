@@ -1116,7 +1116,11 @@ ul.portfolio li.active {
 }
 
 .ccp {
-	background-color: #666666;
+	background-color:transparent;
+}
+
+.spotlight {
+	background-color:transparent;
 }
 
 
