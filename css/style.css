@@ -155,9 +155,9 @@ fieldset {
 	background-repeat: repeat;
 }
 
-.grabbing {
+/*.grabbing {
 	cursor: url(../images/owl-carousel/grabbing.png) 8 8, move;
-}
+}*/
 
 .divider > i {
 	color: #f7639a;
@@ -295,6 +295,11 @@ fieldset {
     z-index: 9999;
     -webkit-transition: all 0.4s ease-out;
     transition: all 0.4s ease-out;
+}
+
+.top-icons {
+	height:33px;
+	width:124px;
 }
 
 .logo {
