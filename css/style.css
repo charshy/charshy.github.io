@@ -297,9 +297,24 @@ fieldset {
     transition: all 0.4s ease-out;
 }
 
-.top-icons {
+.table_top-paypal {
 	height:33px;
 	width:124px;
+}
+
+.table_top-pdf {
+	height:64px;
+	width:64px;
+}
+
+.table_top-yt {
+	height:33px;
+	width:124px;
+}
+
+.table_top-download {
+	height:64px;
+	width:64px;
 }
 
 .logo {
@@ -488,7 +503,7 @@ fieldset {
     border-right-color: #f7639a;
 }
 
-.about-me-text p:first-letter {
+/*.about-me-text p:first-letter {
 	font-size: 35px;
     color: #ffffff;
     background: #f7639a;
@@ -498,7 +513,7 @@ fieldset {
     border-radius: 50%;
     line-height: 61px;
 	margin-right: 5px;
-}
+} */
 
 
 
@@ -756,94 +771,6 @@ ul.portfolio li.active {
 .mfp-zoom-out-cur, .mfp-zoom-out-cur .mfp-image-holder .mfp-close {
     cursor: inherit;
 }
-
-
-
-/* Testimonial */
-
-.testimonial-section {
-    background: #F9F9F9;
-}
-
-.testimonial-carousel-list {
-    padding: 30px;
-    background-color: #fff;
-    border-radius: 4px;
-	box-shadow: 0px 1px 2px 0px rgba(90, 91, 95, 0.15);
-    transition: all 0.3s ease-in-out;
-}
-
-.testimonial-carousel-list:hover {
-    box-shadow: 0px 16px 22px 0px rgba(90, 91, 95, 0.3);
-    top: -5px;
-}
-
-.testimonial-word {
-    padding: 0px 100px;
-}
-
-.testimonial-word img {
-	margin: 0 auto;
-    max-width: 140px;
-}
-
-.testimonial-word h2 {
-    font-size: 12px;
-    text-transform: uppercase;
-	color: #4c9cef;
-    font-weight: 700;
-    letter-spacing: 4px;
-    margin: 20px 0px;
-}
-
-.testimonial-word p {
-    line-height: 25px;
-}
-
-.owl-navi {
-	color: #ffffff;
-}
-
-.owl-theme .owl-controls .owl-buttons div {
-    display: inline-block;
-    zoom: 1;
-    margin: 5px;
-	margin-top: -32px;
-    padding: 7px 13px;
-	background-color: transparent;
-    opacity: 1;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    border-radius: 100%;
-    width: 65px;
-    height: 65px;
-    line-height: 60px;
-    background-color: #4c9cef;
-	transition: all 0.3s ease-in-out;
-}
-
-.owl-theme .owl-controls .owl-buttons div:hover {
-	background-color: #f7639a;
-}
-
-.owl-prev, .owl-next {
-  position: absolute;
-  top: 50%;
-  padding: 5px;
-  margin: 0;
-  z-index: 100;
-  cursor: pointer;
-}
-
-.owl-prev {
-  left: -40px;
-}
-
-.owl-next {
-  right: -40px;
-}
-
-
 
 /* Statistics */
 
