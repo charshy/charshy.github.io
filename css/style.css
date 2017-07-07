@@ -41,6 +41,18 @@
 
 /* Global Style */
 
+:root {
+  --main-color: #06c;
+  --accent-color: #006;
+  --highlight-color: #000000;
+  --bg-color: #ffffff;
+  
+  /*Syntax
+  
+  color:var(--main-color)
+  */
+}
+
 body {
     font-size: 12px;
     /*font-weight: 400; */
@@ -154,10 +166,6 @@ fieldset {
 	background: url(../images/bg/pattern-bg.png);
 	background-repeat: repeat;
 }
-
-/*.grabbing {
-	cursor: url(../images/owl-carousel/grabbing.png) 8 8, move;
-}*/
 
 .divider > i {
 	color: #f7639a;
@@ -389,7 +397,6 @@ fieldset {
 .navigation-background .navigation-menu .navbar-nav li a:hover {
     color: #fff;
 }
-
 
 
 /* Qualification and Experience */
