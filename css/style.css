@@ -691,9 +691,11 @@ ul.portfolio li.active {
 /* Statistics */
 
 .statistics-section {
-    background: url(../images/bg/statistics.jpg);
+	background-color:E3E3E3;
+    /*background: url(../images/bg/statistics.jpg);
+
     background-size: cover;
-	background-attachment: fixed;
+	background-attachment: fixed; */
 }
 
 .statistics {
