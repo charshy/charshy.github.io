@@ -5,7 +5,6 @@
     Website : http://www.uipasta.com/
     Support : http://www.uipasta.com/support/
 	
-	Colour scheme by Charshy Nash.
 	
 */
 
@@ -42,8 +41,20 @@
 
 /* Global Style */
 
+:root {
+  --main-color: #06c;
+  --accent-color: #006;
+  --highlight-color: #000000;
+  --bg-color: #ffffff;
+  
+  /*Syntax
+  
+  color:var(--main-color)
+  */
+}
+
 body {
-    font-size: 14px;
+    font-size: 12px;
     /*font-weight: 400; */
     line-height: 24px;
     letter-spacing: 1px;
@@ -57,12 +68,12 @@ body {
 }
 
 ::selection {
-    background-color: #db0052;
+    background-color: #f7639a;
     color: #ffffff;
 }
 
 ::-moz-selection {
-    background-color: #db0052;
+    background-color: #f7639a;
     color: #ffffff;
 }
 
@@ -84,13 +95,13 @@ img {
 }
 
 a {
-    color: #6ed3cf;
+    color: #4c9cef;
 }
 
 a:hover,
 a:active,
 a:focus {
-    color: #db0052;
+    color: #f7639a;
     text-decoration: none;
 	outline: none;
 }
@@ -120,11 +131,11 @@ fieldset {
 }
 
 .pink-color {
-	color: #db0052 !important;
+	color: #f7639a !important;
 }
 
 .pink-color-bg {
-	background-color: #db0052 !important;
+	background-color: #f7639a !important;
 }
 
 .section-space-padding {
@@ -152,12 +163,12 @@ fieldset {
 }
 
 .pattern-bg {
-	/*background: url(../images/bg/pattern-bg.png);
-	background-repeat: repeat; */
+	background: url(../images/bg/pattern-bg.png);
+	background-repeat: repeat;
 }
 
 .divider > i {
-	color: #db0052;
+	color: #f7639a;
 	font-size: 21px;
 }
 
@@ -230,14 +241,14 @@ fieldset {
 .button-style:active,
 .button-style:focus {
 	color: #ffffff;
-	background: #6ed3cf;
+	background: #4c9cef;
 }
 
 .button-style-color-2:hover,
 .button-style-color-2:active,
 .button-style-color-2:focus {
 	color: #ffffff;
-	background: #db0052 !important;
+	background: #f7639a !important;
 }
 
 .button-style-dark {
@@ -315,7 +326,7 @@ fieldset {
 }
 
 .logo {
-    padding-top: 0px;
+    padding-top: 28px;
     -webkit-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
 }
@@ -326,7 +337,7 @@ fieldset {
     letter-spacing: 6px;
     font-weight: 600;
     font-size: 14px;
-	border-bottom: 4px solid #db0052;
+	border-bottom: 4px solid #f7639a;
     width: 92px;
 }
 
@@ -343,7 +354,7 @@ fieldset {
 
 .navigation-menu .navbar-nav li a:hover {
     background: none;
-    color: #db0052;
+    color: #f7639a;
     -webkit-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
 }
@@ -351,7 +362,7 @@ fieldset {
 .nav li a:focus,
 .nav li a:hover {
     background: none;
-    color: #6ed3cf;
+    color: #4c9cef;
     -webkit-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
 }
@@ -363,7 +374,7 @@ fieldset {
 .navigation-background {
     -webkit-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
-    background: #6ed3cf;
+    background: #4c9cef;
 }
 
 .navigation-background .logo {
@@ -410,7 +421,7 @@ fieldset {
 	position: absolute;
 	left: -60px;
 	color: #fff;
-    background: #6ed3cf;
+    background: #4c9cef;
 	padding-top: 25px;
     box-shadow: -5px 6px 4px 0px rgba(90, 91, 95, 0.3);
 }
@@ -434,7 +445,7 @@ fieldset {
 	margin-left: 80px;
 	position: relative;
 	background: #fff;
-	border: 2px solid #db0052;
+	border: 2px solid #f7639a;
 	border-radius: 6px;
 	padding: 20px 25px;
 }
@@ -464,7 +475,7 @@ fieldset {
 
 .experience-content:before {
 	border-color: rgba(238, 238, 238, 0);
-	border-right-color: #db0052;
+	border-right-color: #f7639a;
 	border-width: 16px;
 	margin-top: -21px;
 }
@@ -474,11 +485,11 @@ fieldset {
 }
 
 .experience-color-blue {
-	border: 2px solid #6ed3cf !important;
+	border: 2px solid #4c9cef !important;
 }
 
 .experience-color-blue:before {
-	border-right-color: #6ed3cf !important;
+	border-right-color: #4c9cef !important;
 }
 
 
@@ -486,7 +497,7 @@ fieldset {
 /* About */
 
 .about {
-	background: #E3E3E3;
+	background: #F9F9F9;
 }
 
 .about-me-text {
@@ -494,15 +505,15 @@ fieldset {
 	background-color: #ffffff;
 	box-shadow: -2px 40px 34px -24px rgba(0, 0, 0, 0.2);
     border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
-    border: solid 7px #6ed3cf;
-    border-left-color: #db0052;
-    border-right-color: #db0052;
+    border: solid 7px #4c9cef;
+    border-left-color: #f7639a;
+    border-right-color: #f7639a;
 }
 
 /*.about-me-text p:first-letter {
 	font-size: 35px;
     color: #ffffff;
-    background: #db0052;
+    background: #f7639a;
     padding: 0px 20px;
     width: 50px;
     height: 50px;
@@ -532,11 +543,11 @@ fieldset {
 }
 
 .my-skill .progress-bar-primary {
-  background: #6ed3cf;
+  background: #4c9cef;
 }
 
 .modal-body .btn {
-	background-color: #db0052;
+	background-color: #f7639a;
 	margin-top: -68px;
     position: relative;
     margin-right: -35px;
@@ -587,7 +598,7 @@ ul.portfolio {
     margin-top: 30px;
     margin-left: 8px;
     text-align: center;
-    background-color: #6ed3cf;
+    background-color: #4c9cef;
 }
 
 ul.portfolio li {
@@ -610,7 +621,7 @@ ul.portfolio li:hover {
 
 ul.portfolio li.active {
     color: #ffffff;
-    background-color: #db0052;
+    background-color: #f7639a;
     padding: 5px 20px;
     border-radius: 20px;
     box-shadow: 0px 1px 2px 0px rgba(90, 91, 95, 0.15);
@@ -641,13 +652,14 @@ ul.portfolio li.active {
   content: "\f00e";
   font-family: "FontAwesome";
   text-align: center;
+  color: #ffffff;
   position: absolute;
   font-size: 25px;
   top: 2%;
   opacity: 0;
   left: 0%;
   right: 0%;
-  background-color: #db0052;
+  background-color: #f7639a;
   width: 70px;
   height: 70px;
   border-radius: 50%;
@@ -664,7 +676,7 @@ ul.portfolio li.active {
 .mfp-image-holder .mfp-close, .mfp-iframe-holder .mfp-close {
 	margin-top: 50px;
     font-size: 40px;
-    background-color: #db0052;
+    background-color: #f7639a;
     width: 50px;
     right: 10px;
     height: 50px;
@@ -679,7 +691,7 @@ ul.portfolio li.active {
 /* Statistics */
 
 .statistics-section {
-	background-color:#E3E3E3;
+	background-color:E3E3E3;
     /*background: url(../images/bg/statistics.jpg);
 
     background-size: cover;
@@ -747,23 +759,23 @@ ul.portfolio li.active {
     background-color: #ffffff;
     box-shadow: -2px 40px 34px -24px rgba(0, 0, 0, 0.2);
     border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
-    border: solid 7px #6ed3cf;
-    border-left-color: #db0052;
-    border-right-color: #db0052;
+    border: solid 7px #4c9cef;
+    border-left-color: #f7639a;
+    border-right-color: #f7639a;
 }
 
 .contact-us-detail {
     position: absolute;
     left: 83%;
     top: -4%;
-    background-color: #6ed3cf;
+    background-color: #4c9cef;
     padding: 10px 20px;
     border-radius: 5px;
     font-weight: 600;
 }
 
 .contact-us-detail:hover {
-	background-color: #db0052;
+	background-color: #f7639a;
 }
 
 .contact-us-detail a {
@@ -803,7 +815,7 @@ ul.portfolio li.active {
 }
 
 .form-control:focus {
-	border-color: #6ed3cf;
+	border-color: #4c9cef;
 	border-width: 2px;
 }
 
@@ -939,7 +951,7 @@ ul.portfolio li.active {
 /* Scroll To Top */
 
 .scroll-to-top {
-    background-color: #6ed3cf;
+    background-color: #4c9cef;
     display: none;
     width: 60px;
     height: 60px;
@@ -958,7 +970,7 @@ ul.portfolio li.active {
 
 .scroll-to-top:hover,
 .scroll-to-top:focus {
-    background-color: #db0052;
+    background-color: #f7639a;
     color: #ffffff;
     box-shadow: 0px 16px 22px 0px rgba(90, 91, 95, 0.3);
 }
@@ -1013,7 +1025,7 @@ ul.portfolio li.active {
 
 @media only screen and (max-width: 767px) {
     .navbar-toggle .icon-bar {
-        background: #db0052;
+        background: #f7639a;
     }
     
 	.navigation-background .navbar-toggle .icon-bar {
@@ -1056,11 +1068,11 @@ ul.portfolio li.active {
     }
     
 	.navbar-collapse {
-        background: #6ed3cf;
+        background: #4c9cef;
     }
     
 	.navigation-background .navbar-collapse {
-        background: #6ed3cf;
+        background: #4c9cef;
     }
     
 	.section-title h2 {
@@ -1558,10 +1570,10 @@ ul.portfolio li.active {
 }
 
 .uipasta-credit a {
-	color: #6ed3cf;
+	color: #4c9cef;
 	font-weight: 600;
 }
 
 .uipasta-credit a:hover {
-	color: #db0052;
+	color: #f7639a;
 }
